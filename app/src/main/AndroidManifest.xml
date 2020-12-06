@@ -20,8 +20,7 @@
 
         <activity android:name="com.sid.jiolauncher.Activity.MainActivity"
             android:launchMode="singleTask"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:enabled="false">
+            android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.HOME" />

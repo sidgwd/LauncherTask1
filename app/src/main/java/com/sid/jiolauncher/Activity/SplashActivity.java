@@ -27,12 +27,13 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run(){
+                getPackageManager().setComponentEnabledSetting(new ComponentName(getPackageName(),
+                        MainActivity.class.getName()), PackageManager.COMPONENT_ENABLED_STATE_DEFAULT, PackageManager.DONT_KILL_APP);
                 startActivity(new Intent(SplashActivity.this, MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                 finish();
             }
         }, 3000);
-        getPackageManager().setComponentEnabledSetting(new ComponentName(getPackageName(),
-                MainActivity.class.getName()), PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
+
 
     }
 

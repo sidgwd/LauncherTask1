@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [:UI] D:\Jio Tesseract\Jio Launcher\UI\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fee048776b4040c0a73e83e4303a6cff\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf96d2b5a86ecd602a621e7e96856420\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -43,25 +43,25 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Administrato
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1e0614212b25f4ae67724a3587ed8129\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f356410b71eef25d1b4793598313963\jetified-sdp-android-1.0.6\AndroidManifest.xml:2:1-11:12
-INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml
-		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml
-		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:5:5-31:19
+ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:5:5-30:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fee048776b4040c0a73e83e4303a6cff\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fee048776b4040c0a73e83e4303a6cff\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [io.github.inflationx:calligraphy3:3.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\040f11cee115ebc74f59c5a3a24ece42\jetified-calligraphy3-3.1.1\AndroidManifest.xml:11:5-20
@@ -111,9 +111,7 @@ ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:17:17-
 	android:name
 		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:17:27-74
 activity#com.sid.jiolauncher.Activity.MainActivity
-ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:21:9-30:20
-	android:enabled
-		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:24:13-36
+ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:21:9-29:20
 	android:launchMode
 		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:22:13-44
 	android:configChanges
@@ -121,15 +119,15 @@ ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:21:9-3
 	android:name
 		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:21:19-75
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME
-ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:24:13-28:29
 category#android.intent.category.HOME
-ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:27:17-73
+ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:26:17-73
 	android:name
-		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:27:27-70
+		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:26:27-70
 category#android.intent.category.DEFAULT
-ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:28:17-76
+ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:27:17-76
 	android:name
-		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:28:27-73
+		ADDED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:27:27-73
 uses-sdk
 INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml

@@ -11,7 +11,7 @@
 9-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:5:5-31:19
+11-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:5:5-30:19
 12        android:name="com.sid.jiolauncher.ApplicationFont.CustomApplicationFont"
 12-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:11:9-62
 13        android:allowBackup="true"
@@ -45,40 +45,38 @@
 27            </intent-filter>
 28        </activity>
 29        <activity
-29-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:21:9-30:20
+29-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:21:9-29:20
 30            android:name="com.sid.jiolauncher.Activity.MainActivity"
 30-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:21:19-75
 31            android:configChanges="orientation|keyboardHidden|screenSize"
 31-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:23:13-74
-32            android:enabled="false"
-32-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:24:13-36
-33            android:launchMode="singleTask" >
-33-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:22:13-44
-34            <intent-filter>
-34-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:25:13-29:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:15:17-69
-35-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:15:25-66
-36
-37                <category android:name="android.intent.category.HOME" />
-37-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:27:17-73
-37-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:27:27-70
-38                <category android:name="android.intent.category.DEFAULT" />
-38-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:28:17-76
-38-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:28:27-73
-39            </intent-filter>
-40        </activity>
-41
-42        <provider
-42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-43            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-44            android:authorities="com.sid.jiolauncher.lifecycle-process"
-44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-45            android:exported="false"
-45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-46            android:multiprocess="true" />
-46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-47    </application>
-48
-49</manifest>
+32            android:launchMode="singleTask" >
+32-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:22:13-44
+33            <intent-filter>
+33-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:24:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:15:17-69
+34-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:15:25-66
+35
+36                <category android:name="android.intent.category.HOME" />
+36-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:26:17-73
+36-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:26:27-70
+37                <category android:name="android.intent.category.DEFAULT" />
+37-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:27:17-76
+37-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:27:27-73
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+42            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+43            android:authorities="com.sid.jiolauncher.lifecycle-process"
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+44            android:exported="false"
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+45            android:multiprocess="true" />
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+46    </application>
+47
+48</manifest>

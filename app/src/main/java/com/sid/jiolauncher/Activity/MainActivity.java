@@ -49,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
     TextView tvNoDataFound;
     PackageReceiver packageReceiver;
     AppBarLayout appBarLayout;
-    Toolbar toolbar ;
+    Toolbar toolbar;
+
     @Override
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(newBase);
@@ -145,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 final MaterialTapTargetPrompt.Builder tapTargetPromptBuilder = new MaterialTapTargetPrompt.Builder(MainActivity.this)
                         .setPrimaryText("Exit Kiosk/Launcher")
-                        .setSecondaryText("If you exit,Jio Launcher will be disabled and this app will no longer visible in settings home app\n" +
+                        .setSecondaryText("If you exit, Jio Launcher will be disabled and this app will no longer visible in settings home app\n" +
                                 "However you can launch the jio launcher app to re-enable it in settings.")
                         .setAnimationInterpolator(new FastOutSlowInInterpolator())
                         .setMaxTextWidth(R.dimen.tap_target_menu_max_width).setCaptureTouchEventOnFocal(true)
@@ -158,16 +159,15 @@ public class MainActivity extends AppCompatActivity {
                 tapTargetPromptBuilder.setPromptStateChangeListener(new MaterialTapTargetPrompt.PromptStateChangeListener() {
                     @Override
                     public void onPromptStateChanged(@NonNull MaterialTapTargetPrompt prompt, int state) {
-                        if (state == MaterialTapTargetPrompt.STATE_FOCAL_PRESSED||
-                                state == MaterialTapTargetPrompt.STATE_DISMISSED)
-                        {
+                        if (state == MaterialTapTargetPrompt.STATE_FOCAL_PRESSED ||
+                                state == MaterialTapTargetPrompt.STATE_DISMISSED) {
                             // User has pressed the prompt target
                             new GetAllInstalledApps().execute();
                         }
                     }
                 });
             }
-        },1000);
+        }, 1000);
     }
 
     @Override
@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         try {
-            if(packageReceiver!=null){
+            if (packageReceiver != null) {
                 unregisterReceiver(packageReceiver);
             }
         } catch (Exception e) {
