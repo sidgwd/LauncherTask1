@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="logoutButtoncolor">#30318c</color>
+
+    <color name="icontint">#4d4d4d</color>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#424242</color>
+    <color name="colorAccent">#424242</color>
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="welcome_label_color">#424242</color>
+    <color name="border_color">#bab8b8</color>
+    <color name="logincolor">#424242</color>
+    <color name="blueColor">#424242</color>
+    <color name="black">#000</color>
+    <color name="btnTextColor">#FFFFFF</color>
+    <color name="orange">#7cb63b</color>
+    <color name="resendOtp">#424242</color>
+    <color name="resendOtpDissabled">#737373</color>
+
+    <color name="btn_Bypass">#53bb9b</color>
+    <color name="custom_green">#424242</color>
+
+    <color name="submitBtn">#7cb63b</color>
+    <color name="loginBtn">#7cb63b</color>
+    <color name="disableLogin">#BAD899</color>
+    <color name="loginColor">#424242</color>
+    <color name="logintxtColor">#ffffff</color>
+    <color name="forgotTextcolor">#424242</color>
+    <color name="versionTextColor">#7cb63b</color>
+    <color name="errorcolor">#dc143c</color>
+    <color name="red">#FF0000</color>
+    <color name="username_color">#424242</color>
+    <color name="red_primary">#f44336</color>
+    <color name="gray">#bebebe</color>
+    <color name="transparent">#20000000</color>
+    <color name="disablegray">#E3E3E3</color>
+    <color name="light_gray">#dfdfdf</color>
+    <color name="light_gray_1">#696969</color>
+
+</resources>

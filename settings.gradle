@@ -1,0 +1,4 @@
+include ':SDK'
+include ':UI'
+include ':app'
+rootProject.name = "Jio Launcher"
