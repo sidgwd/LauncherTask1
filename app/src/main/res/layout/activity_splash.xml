@@ -5,13 +5,12 @@
     android:background="@color/white">
 
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
-        android:src="@drawable/jio_logo"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_height="wrap_content"></ImageView>
-
-
-
-
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/app_name"
+        android:textSize="30sp"></TextView>
 </LinearLayout>

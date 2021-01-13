@@ -12,8 +12,8 @@
 10
 11    <application
 11-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:5:5-30:19
-12        android:name="com.sid.jiolauncher.ApplicationFont.CustomApplicationFont"
-12-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:11:9-62
+12        android:name="com.jio.launcher.ApplicationFont.CustomApplicationFont"
+12-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:11:9-78
 13        android:allowBackup="true"
 13-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:6:9-35
 14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -30,9 +30,9 @@
 20        android:testOnly="true"
 21        android:theme="@style/Theme.JioLauncher" >
 21-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:12:9-49
-22        <activity android:name="com.sid.jiolauncher.Activity.SplashActivity" >
+22        <activity android:name="com.jio.launcher.Activity.SplashActivity" >
 22-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:13:9-19:20
-22-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:13:19-77
+22-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:13:19-74
 23            <intent-filter>
 23-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:14:13-18:29
 24                <action android:name="android.intent.action.MAIN" />
@@ -46,8 +46,8 @@
 28        </activity>
 29        <activity
 29-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:21:9-29:20
-30            android:name="com.sid.jiolauncher.Activity.MainActivity"
-30-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:21:19-75
+30            android:name="com.jio.launcher.Activity.MainActivity"
+30-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:21:19-72
 31            android:configChanges="orientation|keyboardHidden|screenSize"
 31-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:23:13-74
 32            android:launchMode="singleTask" >

@@ -1,1 +1,1 @@
-com.sid.sdk
+com.jio.sdk

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.sid.sdk",
+  "applicationId": "com.jio.sdk",
   "variantType": "LIBRARY",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "AndroidManifest.xml",
       "properties": {
-        "packageId": "com.sid.sdk",
+        "packageId": "com.jio.sdk",
         "split": ""
       }
     }

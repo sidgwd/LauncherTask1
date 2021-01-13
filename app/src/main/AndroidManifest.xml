@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sid.jiolauncher">
+    package="com.jio.launcher">
 
     <application
         android:allowBackup="true"
@@ -8,9 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:name=".ApplicationFont.CustomApplicationFont"
+        android:name="com.jio.launcher.ApplicationFont.CustomApplicationFont"
         android:theme="@style/Theme.JioLauncher">
-        <activity android:name="com.sid.jiolauncher.Activity.SplashActivity">
+        <activity android:name="com.jio.launcher.Activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.sid.jiolauncher.Activity.MainActivity"
+        <activity android:name="com.jio.launcher.Activity.MainActivity"
             android:launchMode="singleTask"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
