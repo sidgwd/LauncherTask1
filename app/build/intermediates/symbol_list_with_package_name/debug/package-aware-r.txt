@@ -27,13 +27,6 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
-anim fragment_close_enter
-anim fragment_close_exit
-anim fragment_fade_enter
-anim fragment_fade_exit
-anim fragment_fast_out_extra_slow_in
-anim fragment_open_enter
-anim fragment_open_exit
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
@@ -52,7 +45,6 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
-attr MaterialTapTargetPromptTheme
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -477,34 +469,6 @@ attr maxLines
 attr measureWithLargestChild
 attr menu
 attr minTouchTargetSize
-attr mttp_autoDismiss
-attr mttp_autoFinish
-attr mttp_backgroundColour
-attr mttp_captureTouchEventOnFocal
-attr mttp_captureTouchEventOutsidePrompt
-attr mttp_contentDescription
-attr mttp_focalColour
-attr mttp_focalRadius
-attr mttp_focalToTextPadding
-attr mttp_iconColourFilter
-attr mttp_iconTint
-attr mttp_iconTintMode
-attr mttp_maxTextWidth
-attr mttp_primaryText
-attr mttp_primaryTextColour
-attr mttp_primaryTextFontFamily
-attr mttp_primaryTextSize
-attr mttp_primaryTextStyle
-attr mttp_primaryTextTypeface
-attr mttp_secondaryText
-attr mttp_secondaryTextColour
-attr mttp_secondaryTextFontFamily
-attr mttp_secondaryTextSize
-attr mttp_secondaryTextStyle
-attr mttp_secondaryTextTypeface
-attr mttp_target
-attr mttp_textPadding
-attr mttp_textSeparation
 attr multiChoiceItemLayout
 attr navigationContentDescription
 attr navigationIcon
@@ -2127,19 +2091,13 @@ drawable notify_panel_notification_icon_bg
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-id ADD
 id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
-id MULTIPLY
-id SCREEN
 id SHIFT
-id SRC_ATOP
-id SRC_IN
-id SRC_OVER
 id SYM
 id TOP_END
 id TOP_START
@@ -2204,7 +2162,6 @@ id async
 id auto
 id beginning
 id blocking
-id bold
 id bottom
 id buttonPanel
 id calligraphy_tag_id
@@ -2260,7 +2217,6 @@ id fitToContents
 id fixed
 id floating
 id forever
-id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
 id give_us_a_review_landmine_button
@@ -2291,12 +2247,10 @@ id listMode
 id list_item
 id llMainlogout
 id masked
-id material_target_prompt_view
 id menu_exit
 id message
 id middle
 id mini
-id monospace
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -2351,7 +2305,6 @@ id right_side
 id rounded
 id row_index_key
 id rvApplication
-id sans
 id save_non_transition_alpha
 id save_overlay_view
 id scale
@@ -2373,7 +2326,6 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
-id serif
 id shortcut
 id showCustom
 id showHome
@@ -2445,7 +2397,6 @@ id view_offset_helper
 id viewpump_layout_res
 id viewpump_tag_id
 id visible
-id visible_removing_fragment_view_tag
 id withText
 id withinBounds
 id wrap_content
@@ -2512,7 +2463,6 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_splash
-layout activity_test
 layout app_list_row
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2531,7 +2481,6 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dp_example
-layout fragment_test
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -3408,8 +3357,6 @@ styleable FlowLayout itemSpacing lineSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
-styleable Fragment android_name android_id android_tag
-styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable Insets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
@@ -3435,7 +3382,6 @@ styleable MenuView android_windowAnimationStyle android_itemTextAppearance andro
 styleable NavigationView android_background android_fitsSystemWindows android_maxWidth elevation headerLayout itemBackground itemHorizontalPadding itemIconPadding itemIconSize itemIconTint itemMaxLines itemShapeAppearance itemShapeAppearanceOverlay itemShapeFillColor itemShapeInsetBottom itemShapeInsetEnd itemShapeInsetStart itemShapeInsetTop itemTextAppearance itemTextColor menu
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
-styleable PromptView mttp_autoDismiss mttp_autoFinish mttp_backgroundColour mttp_captureTouchEventOnFocal mttp_captureTouchEventOutsidePrompt mttp_contentDescription mttp_focalColour mttp_focalRadius mttp_focalToTextPadding mttp_iconColourFilter mttp_iconTint mttp_iconTintMode mttp_maxTextWidth mttp_primaryText mttp_primaryTextColour mttp_primaryTextFontFamily mttp_primaryTextSize mttp_primaryTextStyle mttp_primaryTextTypeface mttp_secondaryText mttp_secondaryTextColour mttp_secondaryTextFontFamily mttp_secondaryTextSize mttp_secondaryTextStyle mttp_secondaryTextTypeface mttp_target mttp_textPadding mttp_textSeparation
 styleable RangeSlider values
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
