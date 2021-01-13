@@ -67,7 +67,12 @@
                         android:text="Exit Launcher"></Button>-->
 
                 </LinearLayout>
-
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Note: PACKAGE_ADDED and PACKAGE_REMOVED can be tested via adb install or by Using Playstore from below list."
+                    android:textSize="12sp" />
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rvApplication"
@@ -75,6 +80,7 @@
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
+                    android:layout_marginTop="5dp"
                     android:layout_alignParentBottom="true"
                     android:padding="@dimen/cardview_default_elevation" />
             </LinearLayout>

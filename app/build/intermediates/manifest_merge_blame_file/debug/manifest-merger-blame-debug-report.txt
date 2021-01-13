@@ -66,17 +66,6 @@
 37-->D:\Jio Tesseract\Jio Launcher\app\src\main\AndroidManifest.xml:27:27-73
 38            </intent-filter>
 39        </activity>
-40
-41        <provider
-41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-42            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-43            android:authorities="com.sid.jiolauncher.lifecycle-process"
-43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-44            android:exported="false"
-44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-45            android:multiprocess="true" />
-45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-46    </application>
-47
-48</manifest>
+40    </application>
+41
+42</manifest>
