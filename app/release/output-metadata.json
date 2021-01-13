@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.sid.jiolauncher",
+  "applicationId": "com.sid.launcher",
   "variantName": "release",
   "elements": [
     {
